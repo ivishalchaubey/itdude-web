@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+}
+.navitem{
+  text-decoration: none;
+  color: white;
+}
+.navitem:hover{
+  color: #A3A3A3;
+}
