@@ -3,6 +3,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image'
 import Container from 'react-bootstrap/Container';
+import Vishal from '../images/VishalLogo.jpg'
+import '../../App.css'
 
 function Instructor() {
     return (
@@ -25,9 +27,9 @@ function Instructor() {
                 </div>
                 <div className='d-flex justify-content-center p-4'>
                     <div className='d-flex flex-column'>
-                        <Image
+                        <Image className='img-fluid instuctorImage'
                             src=
-                            "https://picsum.photos/100/100"
+                            {Vishal}
                             roundedCircle
                         />
                         <div className='text-center'>

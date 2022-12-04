@@ -1,19 +1,20 @@
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image'
+import Vishal from './images/Vishal.jpg'
 
 const AboutUs = ()=>{
     return (
         <div className='p-3 container'>
             <h1>About Us Page</h1>
             <Row>
-                    <Col sm={6}>
-                    <Image className='shadow-lg p-3 mb-5 bg-dark rounded'
+                    <Col md={6}>
+                    <Image className='shadow-lg p-3 mb-5 bg-dark rounded img-fluid mt-4'
                             src=
-                            "https://picsum.photos/500/450"
+                            {Vishal}
                         />
                     </Col>
-                    <Col sm={6}>
+                    <Col md={6}>
                         <div className='text-start p-5'>
                         <h1>Hello!</h1>
                         <h1>I'm Vishal Chaubey</h1>
