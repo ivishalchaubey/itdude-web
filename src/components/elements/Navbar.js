@@ -32,6 +32,7 @@ function WebNavBar() {
             <Nav.Link ><NavLink className='navitem' to='/courses'>Courses</NavLink></Nav.Link>
             <Nav.Link ><NavLink className='navitem' to='/aboutus'>About Us</NavLink></Nav.Link>
             <Nav.Link ><NavLink className='navitem' to='/contectus'>Contect</NavLink></Nav.Link>
+            <Nav.Link ><NavLink className='navitem' to='/login'>LogIn</NavLink></Nav.Link>
 
           </Nav>
           <Form className="d-flex">

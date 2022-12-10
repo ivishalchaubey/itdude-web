@@ -6,7 +6,7 @@ import ContectUs from './components/ContectUs';
 import Courses from './components/Courses';
 import WebNavBar from './components/elements/Navbar'
 import Footer from './components/elements/Footer'
-
+import LogIn from './components/elements/LogIn';
 
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
       <Route path='/aboutus' element={<AboutUs />} />
       <Route path='/contectus' element={<ContectUs />} />
       <Route path='/courses' element={<Courses />} />
+      <Route path='/login' element={<LogIn />} />
     </Routes>
     </BrowserRouter>
     <Footer />
